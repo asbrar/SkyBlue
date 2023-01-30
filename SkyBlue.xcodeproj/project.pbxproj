@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB4179A8298376EB00FE1031 /* SearchUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4179A7298376EB00FE1031 /* SearchUserView.swift */; };
 		AB61738A297F22E000C3B0DD /* SkyBlueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB617389297F22E000C3B0DD /* SkyBlueApp.swift */; };
 		AB61738C297F22E000C3B0DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB61738B297F22E000C3B0DD /* ContentView.swift */; };
 		AB61738E297F22E400C3B0DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB61738D297F22E400C3B0DD /* Assets.xcassets */; };
@@ -14,6 +15,25 @@
 		AB61739C297F22E500C3B0DD /* SkyBlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB61739B297F22E500C3B0DD /* SkyBlueTests.swift */; };
 		AB6173A6297F22E500C3B0DD /* SkyBlueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6173A5297F22E500C3B0DD /* SkyBlueUITests.swift */; };
 		AB6173A8297F22E500C3B0DD /* SkyBlueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6173A7297F22E500C3B0DD /* SkyBlueUITestsLaunchTests.swift */; };
+		AB6173B5297F251100C3B0DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB6173B4297F251100C3B0DD /* GoogleService-Info.plist */; };
+		AB6173BA297F369000C3B0DD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6173B9297F369000C3B0DD /* LoginView.swift */; };
+		AB6173BE2981A3CE00C3B0DD /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6173BD2981A3CE00C3B0DD /* RegisterView.swift */; };
+		AB6173C02981A3E900C3B0DD /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6173BF2981A3E900C3B0DD /* LoadingView.swift */; };
+		AB6173C32981A47B00C3B0DD /* Views+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6173C22981A47B00C3B0DD /* Views+Extensions.swift */; };
+		AB6173C52981A4B600C3B0DD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6173C42981A4B600C3B0DD /* MainView.swift */; };
+		AB6173C72981A64800C3B0DD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6173C62981A64800C3B0DD /* User.swift */; };
+		AB6173CA2981A6A500C3B0DD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AB6173C92981A6A500C3B0DD /* FirebaseAuth */; };
+		AB6173CC2981A6D100C3B0DD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AB6173CB2981A6D100C3B0DD /* FirebaseFirestore */; };
+		AB6173CE2981A6D100C3B0DD /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AB6173CD2981A6D100C3B0DD /* FirebaseFirestoreSwift */; };
+		AB6173D02981A6D100C3B0DD /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AB6173CF2981A6D100C3B0DD /* FirebaseStorage */; };
+		AB6173D22981A79800C3B0DD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6173D12981A79800C3B0DD /* ProfileView.swift */; };
+		AB99FC6D2981E3BB0016DDC3 /* ReusablePostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB99FC6C2981E3BB0016DDC3 /* ReusablePostsView.swift */; };
+		AB99FC6F2981E9AE0016DDC3 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB99FC6E2981E9AE0016DDC3 /* PostsView.swift */; };
+		AB99FC712981ECA30016DDC3 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB99FC702981ECA30016DDC3 /* PostCardView.swift */; };
+		AB99FC742981EFAA0016DDC3 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AB99FC732981EFAA0016DDC3 /* SDWebImageSwiftUI */; };
+		AB99FC76298206650016DDC3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB99FC75298206650016DDC3 /* Post.swift */; };
+		AB99FC78298206AD0016DDC3 /* CreateNewPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB99FC77298206AD0016DDC3 /* CreateNewPost.swift */; };
+		AB99FC7A2982073B0016DDC3 /* ReusableProfileContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB99FC792982073B0016DDC3 /* ReusableProfileContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB4179A7298376EB00FE1031 /* SearchUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserView.swift; sourceTree = "<group>"; };
 		AB617386297F22E000C3B0DD /* SkyBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB617389297F22E000C3B0DD /* SkyBlueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyBlueApp.swift; sourceTree = "<group>"; };
 		AB61738B297F22E000C3B0DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +66,20 @@
 		AB6173A1297F22E500C3B0DD /* SkyBlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyBlueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6173A5297F22E500C3B0DD /* SkyBlueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyBlueUITests.swift; sourceTree = "<group>"; };
 		AB6173A7297F22E500C3B0DD /* SkyBlueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyBlueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB6173B4297F251100C3B0DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AB6173B9297F369000C3B0DD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AB6173BD2981A3CE00C3B0DD /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		AB6173BF2981A3E900C3B0DD /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		AB6173C22981A47B00C3B0DD /* Views+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views+Extensions.swift"; sourceTree = "<group>"; };
+		AB6173C42981A4B600C3B0DD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AB6173C62981A64800C3B0DD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AB6173D12981A79800C3B0DD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AB99FC6C2981E3BB0016DDC3 /* ReusablePostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusablePostsView.swift; sourceTree = "<group>"; };
+		AB99FC6E2981E9AE0016DDC3 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		AB99FC702981ECA30016DDC3 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		AB99FC75298206650016DDC3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		AB99FC77298206AD0016DDC3 /* CreateNewPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPost.swift; sourceTree = "<group>"; };
+		AB99FC792982073B0016DDC3 /* ReusableProfileContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProfileContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +87,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB99FC742981EFAA0016DDC3 /* SDWebImageSwiftUI in Frameworks */,
+				AB6173CA2981A6A500C3B0DD /* FirebaseAuth in Frameworks */,
+				AB6173D02981A6D100C3B0DD /* FirebaseStorage in Frameworks */,
+				AB6173CC2981A6D100C3B0DD /* FirebaseFirestore in Frameworks */,
+				AB6173CE2981A6D100C3B0DD /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +112,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB4179A529836DDF00FE1031 /* PostView */ = {
+			isa = PBXGroup;
+			children = (
+				AB99FC6C2981E3BB0016DDC3 /* ReusablePostsView.swift */,
+				AB99FC6E2981E9AE0016DDC3 /* PostsView.swift */,
+				AB99FC702981ECA30016DDC3 /* PostCardView.swift */,
+			);
+			path = PostView;
+			sourceTree = "<group>";
+		};
+		AB4179A629836DF200FE1031 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				AB99FC792982073B0016DDC3 /* ReusableProfileContent.swift */,
+				AB6173D12981A79800C3B0DD /* ProfileView.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
 		AB61737D297F22E000C3B0DD = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +138,7 @@
 				AB61739A297F22E500C3B0DD /* SkyBlueTests */,
 				AB6173A4297F22E500C3B0DD /* SkyBlueUITests */,
 				AB617387297F22E000C3B0DD /* Products */,
+				AB6173C82981A6A500C3B0DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +155,9 @@
 		AB617388297F22E000C3B0DD /* SkyBlue */ = {
 			isa = PBXGroup;
 			children = (
+				AB6173B8297F35E600C3B0DD /* Model */,
+				AB6173B7297F35B800C3B0DD /* View */,
+				AB6173B4297F251100C3B0DD /* GoogleService-Info.plist */,
 				AB617389297F22E000C3B0DD /* SkyBlueApp.swift */,
 				AB61738B297F22E000C3B0DD /* ContentView.swift */,
 				AB61738D297F22E400C3B0DD /* Assets.xcassets */,
@@ -129,6 +192,62 @@
 			path = SkyBlueUITests;
 			sourceTree = "<group>";
 		};
+		AB6173B7297F35B800C3B0DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB6173C12981A45D00C3B0DD /* Helpers */,
+				AB6173BC2981A38000C3B0DD /* MainView */,
+				AB6173BB2981A30900C3B0DD /* Login */,
+				AB6173BF2981A3E900C3B0DD /* LoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB6173B8297F35E600C3B0DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB6173C62981A64800C3B0DD /* User.swift */,
+				AB99FC75298206650016DDC3 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB6173BB2981A30900C3B0DD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AB6173B9297F369000C3B0DD /* LoginView.swift */,
+				AB6173BD2981A3CE00C3B0DD /* RegisterView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AB6173BC2981A38000C3B0DD /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				AB6173C42981A4B600C3B0DD /* MainView.swift */,
+				AB99FC77298206AD0016DDC3 /* CreateNewPost.swift */,
+				AB4179A629836DF200FE1031 /* ProfileView */,
+				AB4179A529836DDF00FE1031 /* PostView */,
+				AB4179A7298376EB00FE1031 /* SearchUserView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		AB6173C12981A45D00C3B0DD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AB6173C22981A47B00C3B0DD /* Views+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AB6173C82981A6A500C3B0DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +264,13 @@
 			dependencies = (
 			);
 			name = SkyBlue;
+			packageProductDependencies = (
+				AB6173C92981A6A500C3B0DD /* FirebaseAuth */,
+				AB6173CB2981A6D100C3B0DD /* FirebaseFirestore */,
+				AB6173CD2981A6D100C3B0DD /* FirebaseFirestoreSwift */,
+				AB6173CF2981A6D100C3B0DD /* FirebaseStorage */,
+				AB99FC732981EFAA0016DDC3 /* SDWebImageSwiftUI */,
+			);
 			productName = SkyBlue;
 			productReference = AB617386297F22E000C3B0DD /* SkyBlue.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +343,10 @@
 				Base,
 			);
 			mainGroup = AB61737D297F22E000C3B0DD;
+			packageReferences = (
+				AB6173B6297F267A00C3B0DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				AB99FC722981EFAA0016DDC3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = AB617387297F22E000C3B0DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +365,7 @@
 			files = (
 				AB617392297F22E400C3B0DD /* Preview Assets.xcassets in Resources */,
 				AB61738E297F22E400C3B0DD /* Assets.xcassets in Resources */,
+				AB6173B5297F251100C3B0DD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +390,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB99FC712981ECA30016DDC3 /* PostCardView.swift in Sources */,
+				AB6173BA297F369000C3B0DD /* LoginView.swift in Sources */,
+				AB6173D22981A79800C3B0DD /* ProfileView.swift in Sources */,
+				AB6173C52981A4B600C3B0DD /* MainView.swift in Sources */,
+				AB99FC76298206650016DDC3 /* Post.swift in Sources */,
+				AB6173BE2981A3CE00C3B0DD /* RegisterView.swift in Sources */,
+				AB6173C32981A47B00C3B0DD /* Views+Extensions.swift in Sources */,
+				AB99FC7A2982073B0016DDC3 /* ReusableProfileContent.swift in Sources */,
+				AB99FC6D2981E3BB0016DDC3 /* ReusablePostsView.swift in Sources */,
+				AB99FC78298206AD0016DDC3 /* CreateNewPost.swift in Sources */,
+				AB6173C72981A64800C3B0DD /* User.swift in Sources */,
 				AB61738C297F22E000C3B0DD /* ContentView.swift in Sources */,
+				AB6173C02981A3E900C3B0DD /* LoadingView.swift in Sources */,
+				AB99FC6F2981E9AE0016DDC3 /* PostsView.swift in Sources */,
 				AB61738A297F22E000C3B0DD /* SkyBlueApp.swift in Sources */,
+				AB4179A8298376EB00FE1031 /* SearchUserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +560,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SkyBlue/Preview Content\"";
+				DEVELOPMENT_TEAM = ZK8VD79KU2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -435,10 +581,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ArshBrar.SkyBlue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,6 +599,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SkyBlue/Preview Content\"";
+				DEVELOPMENT_TEAM = ZK8VD79KU2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -471,10 +620,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ArshBrar.SkyBlue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -604,6 +755,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB6173B6297F267A00C3B0DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		AB99FC722981EFAA0016DDC3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB6173C92981A6A500C3B0DD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB6173B6297F267A00C3B0DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AB6173CB2981A6D100C3B0DD /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB6173B6297F267A00C3B0DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AB6173CD2981A6D100C3B0DD /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB6173B6297F267A00C3B0DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		AB6173CF2981A6D100C3B0DD /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB6173B6297F267A00C3B0DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		AB99FC732981EFAA0016DDC3 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB99FC722981EFAA0016DDC3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AB61737E297F22E000C3B0DD /* Project object */;
 }

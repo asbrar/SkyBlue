@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("log_status") var logStatus: Bool = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        // MARK: Redirecting User Based on log Status
+        if logStatus{
+            MainView()
         }
-        .padding()
+        else{
+            _LoginView()
+        }
+
     }
 }
 
